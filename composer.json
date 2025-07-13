@@ -1,0 +1,16 @@
+{
+  "name": "cis-bv/openai-php",
+  "version": "1.0.0",
+  "description": "PHP-Client Library for OpenAI API",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CisBv\\OpenAi\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.4",
+    "ext-curl": "*",
+    "guzzlehttp/guzzle": "^7.0.0"
+  }
+}
